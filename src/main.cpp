@@ -874,7 +874,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
             //next 2 days        
         } else if(nHeight > 5671 && nHeight < 11521) {
            
-               if(rand > 9474 && rand < 13074) {  // 12.5%
+               if(rand > 9474 && rand < 15000) {  // 12.5%
                     nSubsidy = 1028000 * COIN;
                 } else {
                    nSubsidy = 128000 * COIN;
@@ -886,7 +886,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
                if(rand > 24101 && rand < 25902) { // 6.25%
                     nSubsidy = 1028000 * COIN;
                 } else {
-                   nSubsidy = 56000 * COIN;
+                   nSubsidy = 128000 * COIN;
                 }
 
 
@@ -896,7 +896,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
                if(rand > 10000 && rand < 10900) {  // 3.12%
                     nSubsidy = 1028000 * COIN;
                 } else {
-                   nSubsidy = 32000 * COIN;
+                   nSubsidy = 56000 * COIN;
                 }
 
 
@@ -906,7 +906,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
                if(rand > 26541 && rand < 26992) { // 1.56%
                     nSubsidy = 1028000 * COIN;
                 } else {
-                   nSubsidy = 16000 * COIN;
+                   nSubsidy = 32000 * COIN;
                 }
 
 
@@ -916,7 +916,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
                if(rand > 5266 && rand < 5492) { // 0.78%
                     nSubsidy = 1028000 * COIN;
                 } else {
-                   nSubsidy = 8000 * COIN;
+                   nSubsidy = 16000 * COIN;
                 }
 
 
@@ -926,7 +926,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
                if(rand > 19744 && rand < 19857) { // 0.39%
                     nSubsidy = 1028000 * COIN;
                 } else {
-                   nSubsidy = 4000 * COIN;
+                   nSubsidy = 8000 * COIN;
                 }
 
 
@@ -936,7 +936,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
                if(rand > 19744 && rand < 19750) {// 0.0195%
                     nSubsidy = 1028000 * COIN;
                 } else {
-                   nSubsidy = 2000 * COIN;
+                   nSubsidy = 4000 * COIN;
                 }
 
             //next 256
@@ -945,7 +945,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
                if(rand > 25410 && rand < 25414) {// 0.00975%
                     nSubsidy = 1028000 * COIN;
                 } else {
-                   nSubsidy = 1000 * COIN;
+                   nSubsidy = 2000 * COIN;
                 }
 
             //next 512
